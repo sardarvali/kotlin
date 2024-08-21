@@ -1,0 +1,70 @@
+//////////fun main(){
+//////////    val abc:String = "syed"
+//////////    val y:Int= abc.toInt()
+//////////    println(y)
+//////////}
+///////////* val a:String ="hi"
+//////////val
+////////// */
+////////
+////////fun main(){
+////////    val a:String = "Hi"
+////////    val b:Int? = a as? Int
+////////    println(b)
+////////}
+//////
+//////
+//////fun main(){
+//////    val a:String = "HI"
+//////    val b:String? = a as? String
+//////    if (b != null){
+//////        println("typecast succesful")
+//////    }
+//////    else{
+//////        println("typecast unsuccesful")
+//////    }
+//////}
+////
+////
+////fun main(){
+////  val amount = 1100
+//////    print("enter the amount")
+//////    val amount = readLine()
+////    val member:Boolean = false
+////    if (amount >= 1000){
+////        if (member){
+////            println("you will get 20% discount")
+////        }else{
+////            println("you will get 10% discount")
+////        }
+////    }else{
+////        println("no discount")
+////    }
+////
+////
+////}
+//
+//
+//fun main(){
+//    val dayOfWeek = 4
+//    val dayName = when(dayOfWeek){
+//        1-> "monday"
+//        2-> "tuesday"
+//        3-> "wednesday"
+//        4-> "thursday"
+//        5-> "friday"
+//        6-> "saturday"
+//        7-> "sunday"
+//        else -> "invalid day"
+//    }
+//    println("Day of week:$dayName")
+//}
+
+
+fun main(){
+    val a = 30
+
+
+
+
+}
