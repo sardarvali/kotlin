@@ -1,0 +1,32 @@
+//
+//fun main(){
+//    var a = 10
+//    var b = 12.123
+//    var c = "hello"
+//    var d = true
+//}
+//
+///**/
+fun main(){
+var number = arrayOf(1,2,3,4,5)
+var words: Array<String> = arrayOf("kotlin" , "java" ,"python")
+val squares = Array(5){ i -> i * i }
+var firstNUmber = number[4]
+var secondWord = words[1]
+println("First number: $firstNUmber")
+println("Second word : $secondWord")
+number[0] = 10
+words[1]="kotlin"
+println("Modified first number : ${number[0]}")
+    println("Modified secondnumber : ${words[1]}")
+    words.forEach { word -> println(word) }
+    val size = number.size
+    println("Size of numbers array: $size")
+}
+
+//fun main(){
+//    var sec = arrayOf("k22cc","k22cd", "k22ce" )
+//    var  firstSec = sec[2]
+//    println(firstSec)
+//}
+
